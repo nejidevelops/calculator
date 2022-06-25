@@ -1,20 +1,20 @@
 // *** Write your code here***
 let display = document.querySelector("#display")
+let clearNum = document.querySelector("#clearNumbers")
+
+
 function calcNumbers(x){
-        display.value = display.value + x;
+    display.value = display.value + x;
 }
 
 //DELETE AND CLEAR
-function specKeys(y){
-    if (y === "c"){
+clearNum.addEventListener('click', ()=>{
+    if ("c"){
         display.value =""
     }
-    else if(y === "del"){
-        let arr = display.value.split("")
-        arr.pop()
-        display.value = arr.join("")
-    }
-}
+})
+
+
 
 //  Was to imply this method but I had evverything simplified in my html file
 // function clear(){
