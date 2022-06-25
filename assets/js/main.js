@@ -1,6 +1,6 @@
 // *** Write your code here***
 let display = document.querySelector("#display")
-function calcValues(x){
+function calcNumbers(x){
         display.value = display.value + x;
 }
 
