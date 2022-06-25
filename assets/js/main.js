@@ -1,12 +1,11 @@
 // *** Write your code here***
-let display = document.querySelector("#displayNumber")
+let display = document.querySelector("#display")
 function calcValues(x){
         display.value = display.value + x;
-        console.log(x)
 }
 
 //DELETE AND CLEAR
-function deleteClearKeys(y){
+function specKeys(y){
     if (y === "c"){
         display.value =""
     }

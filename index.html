@@ -13,7 +13,7 @@
     <div class="container">
         <form name="form">
             <div class="display">
-                <input type="text" id="displayNumber" placeholder="0" name="displayResult" />
+                <input type="text" id="display" placeholder="0" name="displayResult" />
             </div>
             <div class="buttons">
                 <div class="row">
@@ -42,6 +42,10 @@
                     <input type="button" name="potb" value="." onClick="calcNumbers(potb.value)">
                     <input type="button" name="divb" value="/" onClick="calcNumbers(divb.value)">
                     <input type="button" class="red" value="=" onClick="displayResult.value=eval(displayResult.value)">
+                </div>
+                <div id="row">
+                    <input type="button" id="" name="clear" value="c" onclick="specKeys(clear.value)">
+                    <input type="button" id="" name="del" value="del" onclick="specKeys(clear.value)">
                 </div>
             </div>
 
