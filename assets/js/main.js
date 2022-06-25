@@ -1,16 +1,11 @@
 // *** Write your code here***
-document.addEventListener('DOMContentLoaded', ()=>{
-    // calculatorApp()
-})
-
 let display = document.querySelector("#displayNumber")
 function calcValues(x){
         display.value = display.value + x;
         console.log(x)
-    }
-function calculatorApp(){
-    
 }
+
+
 //  Was to imply this method but I had evverything simplified in my html file
 // function clear(){
 //     form.reset()
