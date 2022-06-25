@@ -5,6 +5,17 @@ function calcValues(x){
         console.log(x)
 }
 
+//DELETE AND CLEAR
+function deleteClearKeys(y){
+    if (y === "c"){
+        display.value =""
+    }
+    else if(y === "del"){
+        let arr = display.value.split("")
+        arr.pop()
+        display.value = arr.join("")
+    }
+}
 
 //  Was to imply this method but I had evverything simplified in my html file
 // function clear(){
